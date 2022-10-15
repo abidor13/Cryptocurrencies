@@ -15,33 +15,33 @@
 
     * Using our knowledge of Pandas, we preprocessed the dataset in order to perform PCA, we first created a dataframe that we preprocessed, removed null values, dropped non important columns/features, and we also used get_dummies() to create variables for the Algorithm and ProofType features. Then finally we used StandardScaler().fit_transform function to standardize all features from the dataframe.
 
-    [Load Data](Images/load_csv.png)
+    ![](Images/load_csv.png)
 
-    [](Images/tradedcrypto2.png)
+    ![](Images/tradedcrypto2.png)
 
-    [](Images/removedcolumns3.png)
+    ![](Images/removedcolumns3.png)
 
-    [](Images/standardized4.png)
+    ![](Images/standardized4.png)
 
 * Reducing Data Dimensions Using PCA
 
     * Using our knowledge of how to apply the Principal Component Analysis (PCA) algorithm, we reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame.
 
-    [](Images/pca1.png)
+    ![](Images/pca1.png)
 
-    [](Images/pca2.png)
+    ![](Images/pca2.png)
 
 
 * Clustering Cryptocurrencies Using K-means
 
     * Using our knowledge of the K-means algorithm, we created an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame previously created. We then ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
 
-    [](Images/elbowcurve1.png)
-    [](Images/elbowcurve2.png)
+    ![](Images/elbowcurve1.png)
+    ![](Images/elbowcurve2.png)
 
-    [](Images/kmeans2.png)
+    ![](Images/kmeans2.png)
 
-    [](Images/newdf3.png)
+    ![](Images/newdf3.png)
 
 
 * Visualizing Cryptocurrencies Results
@@ -49,11 +49,10 @@
     * Using our knowledge of creating scatter plots with Plotly Express and hvplot, we visualized the distinct groups that correspond to the three principal components we created, then we created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 
 
-    [](Images/scatter3d1.png)
-    [](Images/scatter3d2.png)
+    ![](Images/scatter3d1.png)
+    ![](Images/scatter3d2.png)
 
-    [](Images/tradablecrypto.png)
+    ![](Images/tradablecrypto.png)
 
-    [](Images/hvplotscatter.png)
-
+    ![](Images/hvplotscatter.png)
 
